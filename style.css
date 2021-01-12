@@ -1,0 +1,135 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+.main-nav {
+    display: block;
+    font-size: 13px;
+    padding: 10px 10px;
+}
+
+nav a {
+    color: #707070;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    padding: 15px 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.push {
+    margin-right: auto;
+}
+
+.grid {
+    height: 23px;
+    position: relative;
+    bottom: 4px;
+}
+
+.signin {
+background-color: #4885ed;
+color: #fff;
+border: none;
+border-radius: 3px;
+padding: 7px 10px;
+position: relative;
+bottom: 7px;
+font-weight: bold;
+}
+
+.logo {
+    display: block;
+    margin: 200px auto 20px;
+}
+.bar {
+    margin: 0 auto;
+    width: 575px;
+    border-radius: 30px;
+    border: 1px solid #dcdcdc;
+    background-color: transparent;
+}
+
+.bar:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.bar:focus-within {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline: none;
+}
+
+.searchbar {
+    display: flex;
+    height: 45px;
+    border: none;
+    width: 500px;
+    font-size: 16px;
+    outline: none;
+    background-color: transparent;
+    padding-left: 25px;
+}
+
+
+.buttons {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn {
+    background-color: #f5f5f5;
+    border: none;
+    color: #707070;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    outline: none;
+}
+.btn:hover {
+    border: 1px solid #c8c8c8;
+    padding: 9px 19px;
+    color: #808080;
+}
+
+.btn:focus {
+    border: 1px solid #4885ed;
+    padding: 9px 19px;
+}
+
+.footer {
+    display: inline-block;
+    position: fixed;
+    font-family: arial, sans-serif;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    text-decoration: none;
+    background-color: #f2f2f2;
+    border-top: 1px solid #dadce0;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+
+div a {
+    position: relative;
+    right: 30px;
+    color: #707070;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    padding: 15px 15px;
+}
+
+div a:hover {
+    text-decoration: underline;
+}
+
