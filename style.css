@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 ul {
     list-style-type: none;
     overflow: hidden;
@@ -9,15 +15,15 @@ li {
 
 .main-nav {
     display: block;
-    font-size: 13px;
-    padding: 10px 10px;
+    font-size: 15px;
+    padding: 20px 20px;
 }
 
 nav a {
     color: #707070;
     text-decoration: none;
-    font-family: Arial, sans-serif;
-    padding: 15px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
 }
 
 nav a:hover {
@@ -29,107 +35,109 @@ nav a:hover {
 }
 
 .grid {
-    height: 23px;
+    height: 27px;
     position: relative;
-    bottom: 4px;
+    bottom: 6px;
 }
 
 .signin {
-background-color: #4885ed;
-color: #fff;
-border: none;
-border-radius: 3px;
-padding: 7px 10px;
-position: relative;
-bottom: 7px;
-font-weight: bold;
+    position: relative;
+    border: 1px solid transparent;
+    background: #1a73e8;
+    color: white;
+    border-radius: 4px;
+    padding: 9px 24px;
+    font-size: 14px;
+    letter-spacing: .25px;
+    bottom: 8px;
+    cursor: pointer;
 }
 
 .logo {
     display: block;
-    margin: 200px auto 20px;
+    margin: 20vh auto;
 }
+
 .bar {
-    margin: 0 auto;
+    background-color: transparent;
+    margin: -18vh auto;
     width: 575px;
     border-radius: 30px;
     border: 1px solid #dcdcdc;
-    background-color: transparent;
 }
 
 .bar:hover {
-    box-shadow: 1px 1px 8px 1px #dcdcdc;
-}
-
-.bar:focus-within {
-    box-shadow: 1px 1px 8px 1px #dcdcdc;
-    outline: none;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
 }
 
 .searchbar {
-    display: flex;
-    height: 45px;
+    height: 50px;
     border: none;
-    width: 500px;
+    border-radius: 30px;
+    padding: 20px;
+    width: 570px;
     font-size: 16px;
     outline: none;
-    background-color: transparent;
-    padding-left: 25px;
 }
 
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
 
 .buttons {
     display: block;
-    margin: auto;
     text-align: center;
-    margin-top: 30px;
+    margin: 20vh auto;
 }
 
-.btn {
-    background-color: #f5f5f5;
-    border: none;
-    color: #707070;
-    font-size: 15px;
-    padding: 10px 20px;
-    margin: 5px;
+.searchbtn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
     border-radius: 4px;
-    outline: none;
-}
-.btn:hover {
-    border: 1px solid #c8c8c8;
-    padding: 9px 19px;
-    color: #808080;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
 }
 
-.btn:focus {
-    border: 1px solid #4885ed;
-    padding: 9px 19px;
+.searchbtn:hover {
+    border: 1px solid #c8c8c8;
+    box-shadow: 0 1px 1px rgb(32 33 36 / 28%);
 }
 
 .footer {
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
     position: fixed;
     font-family: arial, sans-serif;
     bottom: 0;
-    left: 0px;
     width: 100%;
     text-decoration: none;
     background-color: #f2f2f2;
     border-top: 1px solid #dadce0;
     font-size: 14px;
-    padding: 10px 10px;
+    padding: 15px 20px;
 }
 
-div a {
+.footer a {
     position: relative;
-    right: 30px;
+    justify-content: space-around;
     color: #707070;
     text-decoration: none;
     font-family: arial, sans-serif;
     padding: 15px 15px;
 }
 
-div a:hover {
+.footer a:hover {
     text-decoration: underline;
 }
-
